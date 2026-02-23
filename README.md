@@ -58,7 +58,7 @@ dotnet run --project src/Kedu.API
 
 ---
 
-## � Testando a Aplicação (Endpoints & Acessos)
+## Testando a Aplicação (Endpoints & Acessos)
 
 Com a arquitetura levantada, você poderá explorar o desafio por 3 vias:
 
