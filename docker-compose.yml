@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: kedu_db
+      POSTGRES_USER: kedu
+      POSTGRES_PASSWORD: kedu123
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  api:
+    build: .
+    depends_on:
+      - postgres
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=kedu_db;Username=kedu;Password=kedu123
+    ports:
+      - "8080:8080"
+
+volumes:
+  pgdata:

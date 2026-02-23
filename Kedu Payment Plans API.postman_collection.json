@@ -1,0 +1,1652 @@
+{
+  "info": {
+    "_postman_id": "260e7cdd-523e-4092-a21f-984d888f7fc8",
+    "name": "Kedu Payment Plans API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52214848",
+    "_collection_link": "https://go.postman.co/collection/52214848-260e7cdd-523e-4092-a21f-984d888f7fc8?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "centros-de-custo",
+      "item": [
+        {
+          "name": "{id}",
+          "item": [
+            {
+              "name": "/centros-de-custo/:id",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/centros-de-custo/:id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "centros-de-custo",
+                    ":id"
+                  ],
+                  "variable": [
+                    {
+                      "key": "id",
+                      "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                    }
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "OK",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{baseUrl}}/centros-de-custo/:id",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "centros-de-custo",
+                        ":id"
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "text",
+                  "header": [],
+                  "cookie": [],
+                  "body": ""
+                }
+              ]
+            },
+            {
+              "name": "/centros-de-custo/:id",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"nome\": \"string\",\n  \"descricao\": \"string\"\n}",
+                  "options": {
+                    "raw": {
+                      "headerFamily": "json",
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/centros-de-custo/:id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "centros-de-custo",
+                    ":id"
+                  ],
+                  "variable": [
+                    {
+                      "key": "id",
+                      "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                    }
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "OK",
+                  "originalRequest": {
+                    "method": "PUT",
+                    "header": [
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"nome\": \"string\",\n  \"descricao\": \"string\"\n}",
+                      "options": {
+                        "raw": {
+                          "headerFamily": "json",
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "{{baseUrl}}/centros-de-custo/:id",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "centros-de-custo",
+                        ":id"
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "text",
+                  "header": [],
+                  "cookie": [],
+                  "body": ""
+                }
+              ]
+            },
+            {
+              "name": "/centros-de-custo/:id",
+              "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/centros-de-custo/:id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "centros-de-custo",
+                    ":id"
+                  ],
+                  "variable": [
+                    {
+                      "key": "id",
+                      "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                    }
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "OK",
+                  "originalRequest": {
+                    "method": "DELETE",
+                    "header": [],
+                    "url": {
+                      "raw": "{{baseUrl}}/centros-de-custo/:id",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "centros-de-custo",
+                        ":id"
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "text",
+                  "header": [],
+                  "cookie": [],
+                  "body": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "/centros-de-custo",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nome\": \"string\",\n  \"descricao\": \"string\"\n}",
+              "options": {
+                "raw": {
+                  "headerFamily": "json",
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/centros-de-custo",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "centros-de-custo"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "OK",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"nome\": \"string\",\n  \"descricao\": \"string\"\n}",
+                  "options": {
+                    "raw": {
+                      "headerFamily": "json",
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/centros-de-custo",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "centros-de-custo"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [],
+              "cookie": [],
+              "body": ""
+            }
+          ]
+        },
+        {
+          "name": "/centros-de-custo",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/centros-de-custo?page=1&pageSize=10",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "centros-de-custo"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1"
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10"
+                }
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "OK",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/centros-de-custo?page=1&pageSize=10",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "centros-de-custo"
+                  ],
+                  "query": [
+                    {
+                      "key": "page",
+                      "value": "1"
+                    },
+                    {
+                      "key": "pageSize",
+                      "value": "10"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [],
+              "cookie": [],
+              "body": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cobrancas",
+      "item": [
+        {
+          "name": "{id}",
+          "item": [
+            {
+              "name": "pagar",
+              "item": [
+                {
+                  "name": "/cobrancas/:id/pagar",
+                  "request": {
+                    "method": "POST",
+                    "header": [],
+                    "url": {
+                      "raw": "{{baseUrl}}/cobrancas/:id/pagar",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "cobrancas",
+                        ":id",
+                        "pagar"
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                        }
+                      ]
+                    }
+                  },
+                  "response": [
+                    {
+                      "name": "OK",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [],
+                        "url": {
+                          "raw": "{{baseUrl}}/cobrancas/:id/pagar",
+                          "host": [
+                            "{{baseUrl}}"
+                          ],
+                          "path": [
+                            "cobrancas",
+                            ":id",
+                            "pagar"
+                          ],
+                          "variable": [
+                            {
+                              "key": "id",
+                              "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                            }
+                          ]
+                        }
+                      },
+                      "status": "OK",
+                      "code": 200,
+                      "_postman_previewlanguage": "text",
+                      "header": [],
+                      "cookie": [],
+                      "body": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cancelar",
+              "item": [
+                {
+                  "name": "/cobrancas/:id/cancelar",
+                  "request": {
+                    "method": "POST",
+                    "header": [],
+                    "url": {
+                      "raw": "{{baseUrl}}/cobrancas/:id/cancelar",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "cobrancas",
+                        ":id",
+                        "cancelar"
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                        }
+                      ]
+                    }
+                  },
+                  "response": [
+                    {
+                      "name": "OK",
+                      "originalRequest": {
+                        "method": "POST",
+                        "header": [],
+                        "url": {
+                          "raw": "{{baseUrl}}/cobrancas/:id/cancelar",
+                          "host": [
+                            "{{baseUrl}}"
+                          ],
+                          "path": [
+                            "cobrancas",
+                            ":id",
+                            "cancelar"
+                          ],
+                          "variable": [
+                            {
+                              "key": "id",
+                              "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                            }
+                          ]
+                        }
+                      },
+                      "status": "OK",
+                      "code": 200,
+                      "_postman_previewlanguage": "text",
+                      "header": [],
+                      "cookie": [],
+                      "body": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "vencimento",
+              "item": [
+                {
+                  "name": "/cobrancas/:id/vencimento",
+                  "request": {
+                    "method": "PATCH",
+                    "header": [
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"novaDataVencimento\": \"1979-03-19T22:09:51.966Z\"\n}",
+                      "options": {
+                        "raw": {
+                          "headerFamily": "json",
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "{{baseUrl}}/cobrancas/:id/vencimento",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "cobrancas",
+                        ":id",
+                        "vencimento"
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                        }
+                      ]
+                    }
+                  },
+                  "response": [
+                    {
+                      "name": "OK",
+                      "originalRequest": {
+                        "method": "PATCH",
+                        "header": [
+                          {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{\n  \"novaDataVencimento\": \"1979-03-19T22:09:51.966Z\"\n}",
+                          "options": {
+                            "raw": {
+                              "headerFamily": "json",
+                              "language": "json"
+                            }
+                          }
+                        },
+                        "url": {
+                          "raw": "{{baseUrl}}/cobrancas/:id/vencimento",
+                          "host": [
+                            "{{baseUrl}}"
+                          ],
+                          "path": [
+                            "cobrancas",
+                            ":id",
+                            "vencimento"
+                          ],
+                          "variable": [
+                            {
+                              "key": "id",
+                              "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                            }
+                          ]
+                        }
+                      },
+                      "status": "OK",
+                      "code": 200,
+                      "_postman_previewlanguage": "text",
+                      "header": [],
+                      "cookie": [],
+                      "body": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "metodo-pagamento",
+              "item": [
+                {
+                  "name": "/cobrancas/:id/metodo-pagamento",
+                  "request": {
+                    "method": "PATCH",
+                    "header": [
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"novoMetodoPagamento\": \"PIX\"\n}",
+                      "options": {
+                        "raw": {
+                          "headerFamily": "json",
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "{{baseUrl}}/cobrancas/:id/metodo-pagamento",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "cobrancas",
+                        ":id",
+                        "metodo-pagamento"
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                        }
+                      ]
+                    }
+                  },
+                  "response": [
+                    {
+                      "name": "OK",
+                      "originalRequest": {
+                        "method": "PATCH",
+                        "header": [
+                          {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                          }
+                        ],
+                        "body": {
+                          "mode": "raw",
+                          "raw": "{\n  \"novoMetodoPagamento\": \"PIX\"\n}",
+                          "options": {
+                            "raw": {
+                              "headerFamily": "json",
+                              "language": "json"
+                            }
+                          }
+                        },
+                        "url": {
+                          "raw": "{{baseUrl}}/cobrancas/:id/metodo-pagamento",
+                          "host": [
+                            "{{baseUrl}}"
+                          ],
+                          "path": [
+                            "cobrancas",
+                            ":id",
+                            "metodo-pagamento"
+                          ],
+                          "variable": [
+                            {
+                              "key": "id",
+                              "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                            }
+                          ]
+                        }
+                      },
+                      "status": "OK",
+                      "code": 200,
+                      "_postman_previewlanguage": "text",
+                      "header": [],
+                      "cookie": [],
+                      "body": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "planos-de-pagamento",
+      "item": [
+        {
+          "name": "{id}",
+          "item": [
+            {
+              "name": "total",
+              "item": [
+                {
+                  "name": "/planos-de-pagamento/:id/total",
+                  "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{baseUrl}}/planos-de-pagamento/:id/total",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "planos-de-pagamento",
+                        ":id",
+                        "total"
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                        }
+                      ]
+                    }
+                  },
+                  "response": [
+                    {
+                      "name": "OK",
+                      "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                          "raw": "{{baseUrl}}/planos-de-pagamento/:id/total",
+                          "host": [
+                            "{{baseUrl}}"
+                          ],
+                          "path": [
+                            "planos-de-pagamento",
+                            ":id",
+                            "total"
+                          ],
+                          "variable": [
+                            {
+                              "key": "id",
+                              "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                            }
+                          ]
+                        }
+                      },
+                      "status": "OK",
+                      "code": 200,
+                      "_postman_previewlanguage": "text",
+                      "header": [],
+                      "cookie": [],
+                      "body": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "/planos-de-pagamento/:id",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/planos-de-pagamento/:id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "planos-de-pagamento",
+                    ":id"
+                  ],
+                  "variable": [
+                    {
+                      "key": "id",
+                      "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                    }
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "OK",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{baseUrl}}/planos-de-pagamento/:id",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "planos-de-pagamento",
+                        ":id"
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "text",
+                  "header": [],
+                  "cookie": [],
+                  "body": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "/planos-de-pagamento",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"responsavelId\": \"0283006c-d419-e343-acb1-ac3506ebc38b\",\n  \"centroDeCustoId\": \"e82fa4b8-4954-1efb-6e71-e4a438ea2a4e\",\n  \"cobrancas\": [\n    {\n      \"valor\": 7034.161311927527,\n      \"dataVencimento\": \"1961-01-09T03:50:47.882Z\",\n      \"metodoPagamento\": \"BOLETO\"\n    },\n    {\n      \"valor\": 4006.1711288833335,\n      \"dataVencimento\": \"1992-05-15T02:24:46.067Z\",\n      \"metodoPagamento\": \"BOLETO\"\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "headerFamily": "json",
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/planos-de-pagamento",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "planos-de-pagamento"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "OK",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"responsavelId\": \"0283006c-d419-e343-acb1-ac3506ebc38b\",\n  \"centroDeCustoId\": \"e82fa4b8-4954-1efb-6e71-e4a438ea2a4e\",\n  \"cobrancas\": [\n    {\n      \"valor\": 7034.161311927527,\n      \"dataVencimento\": \"1961-01-09T03:50:47.882Z\",\n      \"metodoPagamento\": \"BOLETO\"\n    },\n    {\n      \"valor\": 4006.1711288833335,\n      \"dataVencimento\": \"1992-05-15T02:24:46.067Z\",\n      \"metodoPagamento\": \"BOLETO\"\n    }\n  ]\n}",
+                  "options": {
+                    "raw": {
+                      "headerFamily": "json",
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/planos-de-pagamento",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "planos-de-pagamento"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [],
+              "cookie": [],
+              "body": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "responsaveis",
+      "item": [
+        {
+          "name": "{id}",
+          "item": [
+            {
+              "name": "planos-de-pagamento",
+              "item": [
+                {
+                  "name": "/responsaveis/:id/planos-de-pagamento",
+                  "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{baseUrl}}/responsaveis/:id/planos-de-pagamento",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "responsaveis",
+                        ":id",
+                        "planos-de-pagamento"
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                        }
+                      ]
+                    }
+                  },
+                  "response": [
+                    {
+                      "name": "OK",
+                      "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                          "raw": "{{baseUrl}}/responsaveis/:id/planos-de-pagamento",
+                          "host": [
+                            "{{baseUrl}}"
+                          ],
+                          "path": [
+                            "responsaveis",
+                            ":id",
+                            "planos-de-pagamento"
+                          ],
+                          "variable": [
+                            {
+                              "key": "id",
+                              "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                            }
+                          ]
+                        }
+                      },
+                      "status": "OK",
+                      "code": 200,
+                      "_postman_previewlanguage": "text",
+                      "header": [],
+                      "cookie": [],
+                      "body": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cobrancas",
+              "item": [
+                {
+                  "name": "quantidade",
+                  "item": [
+                    {
+                      "name": "/responsaveis/:id/cobrancas/quantidade",
+                      "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                          "raw": "{{baseUrl}}/responsaveis/:id/cobrancas/quantidade",
+                          "host": [
+                            "{{baseUrl}}"
+                          ],
+                          "path": [
+                            "responsaveis",
+                            ":id",
+                            "cobrancas",
+                            "quantidade"
+                          ],
+                          "variable": [
+                            {
+                              "key": "id",
+                              "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                            }
+                          ]
+                        }
+                      },
+                      "response": [
+                        {
+                          "name": "OK",
+                          "originalRequest": {
+                            "method": "GET",
+                            "header": [],
+                            "url": {
+                              "raw": "{{baseUrl}}/responsaveis/:id/cobrancas/quantidade",
+                              "host": [
+                                "{{baseUrl}}"
+                              ],
+                              "path": [
+                                "responsaveis",
+                                ":id",
+                                "cobrancas",
+                                "quantidade"
+                              ],
+                              "variable": [
+                                {
+                                  "key": "id",
+                                  "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                                }
+                              ]
+                            }
+                          },
+                          "status": "OK",
+                          "code": 200,
+                          "_postman_previewlanguage": "text",
+                          "header": [],
+                          "cookie": [],
+                          "body": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "/responsaveis/:id/cobrancas",
+                  "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{baseUrl}}/responsaveis/:id/cobrancas?status=PAGA&vencidaApenas=true&dataVencimentoDe=2016-03-07T18:18:07.174Z&dataVencimentoAte=2016-03-07T18:18:07.174Z&page=1&pageSize=10",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "responsaveis",
+                        ":id",
+                        "cobrancas"
+                      ],
+                      "query": [
+                        {
+                          "key": "status",
+                          "value": "PAGA"
+                        },
+                        {
+                          "key": "vencidaApenas",
+                          "value": "true"
+                        },
+                        {
+                          "key": "dataVencimentoDe",
+                          "value": "2016-03-07T18:18:07.174Z"
+                        },
+                        {
+                          "key": "dataVencimentoAte",
+                          "value": "2016-03-07T18:18:07.174Z"
+                        },
+                        {
+                          "key": "page",
+                          "value": "1"
+                        },
+                        {
+                          "key": "pageSize",
+                          "value": "10"
+                        }
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                        }
+                      ]
+                    }
+                  },
+                  "response": [
+                    {
+                      "name": "OK",
+                      "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                          "raw": "{{baseUrl}}/responsaveis/:id/cobrancas?status=PAGA&vencidaApenas=true&dataVencimentoDe=2016-03-07T18:18:07.174Z&dataVencimentoAte=2016-03-07T18:18:07.174Z&page=1&pageSize=10",
+                          "host": [
+                            "{{baseUrl}}"
+                          ],
+                          "path": [
+                            "responsaveis",
+                            ":id",
+                            "cobrancas"
+                          ],
+                          "query": [
+                            {
+                              "key": "status",
+                              "value": "PAGA"
+                            },
+                            {
+                              "key": "vencidaApenas",
+                              "value": "true"
+                            },
+                            {
+                              "key": "dataVencimentoDe",
+                              "value": "2016-03-07T18:18:07.174Z"
+                            },
+                            {
+                              "key": "dataVencimentoAte",
+                              "value": "2016-03-07T18:18:07.174Z"
+                            },
+                            {
+                              "key": "page",
+                              "value": "1"
+                            },
+                            {
+                              "key": "pageSize",
+                              "value": "10"
+                            }
+                          ],
+                          "variable": [
+                            {
+                              "key": "id",
+                              "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                            }
+                          ]
+                        }
+                      },
+                      "status": "OK",
+                      "code": 200,
+                      "_postman_previewlanguage": "text",
+                      "header": [],
+                      "cookie": [],
+                      "body": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "/responsaveis/:id",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/responsaveis/:id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "responsaveis",
+                    ":id"
+                  ],
+                  "variable": [
+                    {
+                      "key": "id",
+                      "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                    }
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "OK",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                      "raw": "{{baseUrl}}/responsaveis/:id",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "responsaveis",
+                        ":id"
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "text",
+                  "header": [],
+                  "cookie": [],
+                  "body": ""
+                }
+              ]
+            },
+            {
+              "name": "/responsaveis/:id",
+              "request": {
+                "method": "PATCH",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"nome\": \"string\",\n  \"email\": \"string\",\n  \"telefone\": \"string\"\n}",
+                  "options": {
+                    "raw": {
+                      "headerFamily": "json",
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/responsaveis/:id",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "responsaveis",
+                    ":id"
+                  ],
+                  "variable": [
+                    {
+                      "key": "id",
+                      "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                    }
+                  ]
+                }
+              },
+              "response": [
+                {
+                  "name": "OK",
+                  "originalRequest": {
+                    "method": "PATCH",
+                    "header": [
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n  \"nome\": \"string\",\n  \"email\": \"string\",\n  \"telefone\": \"string\"\n}",
+                      "options": {
+                        "raw": {
+                          "headerFamily": "json",
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "url": {
+                      "raw": "{{baseUrl}}/responsaveis/:id",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "responsaveis",
+                        ":id"
+                      ],
+                      "variable": [
+                        {
+                          "key": "id",
+                          "value": "7ebf921e-e649-845c-b84b-ee9c12d356ff"
+                        }
+                      ]
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "text",
+                  "header": [],
+                  "cookie": [],
+                  "body": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "/responsaveis",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nome\": \"string\",\n  \"email\": \"string\",\n  \"telefone\": \"string\",\n  \"cpfCnpj\": \"string\"\n}",
+              "options": {
+                "raw": {
+                  "headerFamily": "json",
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/responsaveis",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "responsaveis"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "OK",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"nome\": \"string\",\n  \"email\": \"string\",\n  \"telefone\": \"string\",\n  \"cpfCnpj\": \"string\"\n}",
+                  "options": {
+                    "raw": {
+                      "headerFamily": "json",
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/responsaveis",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "responsaveis"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [],
+              "cookie": [],
+              "body": ""
+            }
+          ]
+        },
+        {
+          "name": "/responsaveis",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/responsaveis?page=1&pageSize=10",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "responsaveis"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1"
+                },
+                {
+                  "key": "pageSize",
+                  "value": "10"
+                }
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "OK",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/responsaveis?page=1&pageSize=10",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "responsaveis"
+                  ],
+                  "query": [
+                    {
+                      "key": "page",
+                      "value": "1"
+                    },
+                    {
+                      "key": "pageSize",
+                      "value": "10"
+                    }
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "text",
+              "header": [],
+              "cookie": [],
+              "body": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GraphQL",
+      "item": [
+        {
+          "name": "Queries (Consultas)",
+          "item": [
+            {
+              "name": "1. Listar Planos por Responsável",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "query {\n  planosPorResponsavel(responsavelId: \"7583b61b-af1f-4a1f-a506-727e1eda6882\") {\n    id\n    valorTotal\n    centroDeCustoId\n    cobrancas {\n      id\n      valor\n      dataVencimento\n      status\n      metodoPagamento\n      estaVencida\n    }\n  }\n}",
+                    "variables": ""
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/graphql",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "graphql"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "2. Listar Cobranças por Responsável (Filtros)",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "query {\n  cobrancas(\n    responsavelId: \"7583b61b-af1f-4a1f-a506-727e1eda6882\", \n    filtro: { status: PENDENTE, vencidaApenas: true }, \n    page: 1, \n    pageSize: 10\n  ) {\n    items {\n      id\n      valor\n      dataVencimento\n      status\n    }\n    page\n    pageSize\n  }\n}",
+                    "variables": ""
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/graphql",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "graphql"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "3. Obter Total Somado do Plano",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "query {\n  plano(id: \"826fd0c8-7daa-4671-b2b6-9a1e62ceb1fe\") {\n    id\n    valorTotal\n  }\n}",
+                    "variables": ""
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/graphql",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "graphql"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "4. Quantidade Total de Cobranças",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "query {\n  quantidadeCobrancasPorResponsavel(responsavelId: \"7583b61b-af1f-4a1f-a506-727e1eda6882\")\n}",
+                    "variables": ""
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/graphql",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "graphql"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Mutations (Ações)",
+          "item": [
+            {
+              "name": "5. Criar Centro de Custo",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "mutation {\n  criarCentroDeCusto(input: { \n    nome: \"Taxa de Formatura\", \n    descricao: \"Terceirao\" \n  }) {\n    id\n    nome\n    descricao\n  }\n}",
+                    "variables": ""
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/graphql",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "graphql"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "6. Criar Responsável",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "mutation {\n  criarResponsavel(input: { \n    nome: \"Carlos GraphQL\", \n    email: \"carlos@gql.com\", \n    telefone: \"11988887777\", \n    cpfCnpj: \"01629287261\" \n  }) {\n    id\n    nome\n    email\n  }\n}",
+                    "variables": ""
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/graphql",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "graphql"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "7. Criar Plano de Pagamento",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "mutation {\n  criarPlano(input: { \n    responsavelId: \"ce046ecd-2e54-4594-8cda-93ac32b5b28f\", \n    centroDeCustoId: \"935245fe-aed1-4f03-b4ef-d6114a932545\", \n    cobrancas: [\n      { \n        valor: 1500.0, \n        dataVencimento: \"2026-12-10T00:00:00Z\", \n        metodoPagamento: PIX \n      }\n    ] \n  }) {\n    id\n    valorTotal\n    cobrancas {\n      id\n      valor\n    }\n  }\n}",
+                    "variables": ""
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/graphql",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "graphql"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "8. Registrar Pagamento Cobrança",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "mutation {\n  registrarPagamento(cobrancaId: \"2e49234c-ffbe-477b-ab04-b84af5a39444\") {\n    id\n    status\n    estaVencida\n  }\n}",
+                    "variables": ""
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/graphql",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "graphql"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "9. Cancelar Cobrança",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "mutation {\n  cancelarCobranca(cobrancaId: \"2e49234c-ffbe-477b-ab04-b84af5a39444\") {\n    id\n    status\n  }\n}",
+                    "variables": ""
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/graphql",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "graphql"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "10. Alterar Vencimento",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "mutation {\n  alterarVencimentoCobranca(\n    cobrancaId: \"2e49234c-ffbe-477b-ab04-b84af5a39444\", \n    input: { \n      novaDataVencimento: \"2027-01-15T00:00:00Z\" \n    }\n  ) {\n    id\n    dataVencimento\n  }\n}",
+                    "variables": ""
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/graphql",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "graphql"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "11. Alterar Método de Pagamento",
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "graphql",
+                  "graphql": {
+                    "query": "mutation {\n  alterarMetodoPagamento(\n    cobrancaId: \"2e49234c-ffbe-477b-ab04-b84af5a39444\", \n    input: { \n      novoMetodoPagamento: BOLETO \n    }\n  ) {\n    id\n    metodoPagamento\n    codigoPagamento\n  }\n}",
+                    "variables": ""
+                  }
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/graphql",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "graphql"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "/"
+    }
+  ]
+}

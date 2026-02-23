@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.AspNetCore" Version="13.9.14" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.24">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kedu.Application\Kedu.Application.csproj" />
+    <ProjectReference Include="..\Kedu.Infrastructure\Kedu.Infrastructure.csproj" />
+    <ProjectReference Include="..\Kedu.Domain\Kedu.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
